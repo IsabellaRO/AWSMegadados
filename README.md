@@ -9,7 +9,7 @@ Paulo Tozzo <br>
 Para começar, é necessário criar um bucket com os arquvios que você deseja usar e subir um cluster na Amazon AWS. Este cluster precisa ter duas dependências adicionais do que as comuns do spark que são a requests e a requests_aws4auth e você pode baixar o nosso sh com elas inclusas neste mesmo repositório. Ele servirá para "pegar" o arquivo do seu bucket e passar para o Elasticsearch por meio de um pipeline.
 
  ### Criando um domínio com o Elasticsearch Service
- 
+  Na seção Elasticsearch Service clique em "create a new domain" e escolha um nome para o seu domínio.
   As configurações default de criação de um domínio do Elasticsearch já são as necessárias para sua utilização e apenas alguns detalhes precisarão ser configurados:
   1. Configurar a política de acesso da sua instância. Algumas opções para isso são:<br>
   ![politicadeacesso](imgs/politicadeacesso.jpeg)
