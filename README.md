@@ -12,7 +12,7 @@ Para começar, é necessário criar um bucket com os arquvios que você deseja u
  
   As configurações default de criação de um domínio do Elasticsearch já são as necessárias para sua utilização e apenas alguns detalhes precisarão ser configurados:
   1. Configurar a política de acesso da sua instância. Algumas opções para isso são:<br>
-  ![politicadeacesso](imgs/politicadeacesso.png)
+  ![politicadeacesso](imgs/politicadeacesso.jpeg)
   
   - Você pode utilizar o template da AWS e adicionar a sua identificação de usuário. Neste caso, quando algum usuário autorizado excutar nosso código, esta ação será assinada por nós mesmos e isso permitirá que tudo seja executado com sucesso. O contra desta opção é que normalmente não será possível acessar nem o endpoint nem o Kibana, para acessá-los será necessário utilizar outro serviço (que não foi utilizado por nós) chama Cognito.
   - Você também liberar certos IP's públicos para terem acesso ao seu domínio. O contra desta opção é que será necessário autorizar cada instância do seu cluster, além do seu próprio computador para ter acesso ao Kibana.
